@@ -28,8 +28,10 @@ address: the address of the restaurant (string), required
 name: the name of the pizza (string), required
 ingredients: the list of ingredients used in the pizza (string), required
 # RestaurantPizza
-price: the price of the pizza in the restaurant (integer), required, validation: must have a price between 1 and 30
-restaurant_id: the ID of the restaurant that serves the pizza, required
-pizza_id: the ID of the pizza that is served in the restaurant, required
-# Routes
-The API has the following routes for performing CRUD operations on the resources:
+1.price: the price of the pizza in the restaurant (integer), required, validation: must have a price between 1 and 30
+2.restaurant_id: the ID of the restaurant that serves the pizza, required
+3.pizza_id: the ID of the pizza that is served in the restaurant, required
+
+# Author
+
+ Jesse Thuku
