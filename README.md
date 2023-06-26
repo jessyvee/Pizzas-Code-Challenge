@@ -8,14 +8,15 @@ A RestaurantPizza belongs to a Restaurant and belongs to a Pizza
 Ruby
 Rails
 SQL
+
 # Setup
 
 To set up and run the API on your local machine, follow these steps:
 
-Clone the repository and navigate to the project root directory. git clone https://github.com/ cd
-Install dependencies bundle install
-Set up the database rails db:migrate rails db:seed
-Start the server rails server The server will start running at http://localhost:3000/
+1.Clone the repository and navigate to the project root directory. git clone https://github.com/ cd
+2.Install dependencies bundle install
+3.Set up the database rails db:migrate rails db:seed
+4.Start the server rails server The server will start running at http://localhost:3000/
 
 # Models
 The API has three models, namely Restaurant, Pizza, and RestaurantPizza, which are defined as follows:
